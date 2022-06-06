@@ -1,0 +1,8 @@
+.home{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    /* background-image: linear-gradient(rgb(39, 2, 39),rgb(113, 42, 126));  */
+    background: linear-gradient(to bottom, rgb(112, 24, 134) ,rgba(171, 96, 228, 0.541));
+
+}

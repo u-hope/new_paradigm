@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/newParadigm/static/css/main.38762da8.css",
+    "main.js": "/newParadigm/static/js/main.6222a7c9.js",
+    "static/media/logo.png": "/newParadigm/static/media/logo.8139552ccc2a04e159e2.png",
+    "static/media/12D.jpg": "/newParadigm/static/media/12D.277b352819f66635ee7c.jpg",
+    "static/media/11.jpg": "/newParadigm/static/media/11.6faa37f1bc766321b1e6.jpg",
+    "static/media/6.jpg": "/newParadigm/static/media/6.5872d1304a9032e99845.jpg",
+    "static/media/3.jpg": "/newParadigm/static/media/3.10c201489b0e81356f45.jpg",
+    "static/media/7.jpg": "/newParadigm/static/media/7.6363dc466e7872c01b9d.jpg",
+    "static/media/10.jpg": "/newParadigm/static/media/10.928c15220f2c8c53b775.jpg",
+    "static/media/9.jpg": "/newParadigm/static/media/9.9ba675befde93909c817.jpg",
+    "static/media/1.jpg": "/newParadigm/static/media/1.78479d34e94681875a10.jpg",
+    "static/media/5.jpg": "/newParadigm/static/media/5.585670c9200fa7f45c1b.jpg",
+    "static/media/4.jpg": "/newParadigm/static/media/4.1ad9bb1033f7f491073d.jpg",
+    "static/media/8.jpg": "/newParadigm/static/media/8.1d96b285ce612d00c615.jpg",
+    "static/media/map.PNG": "/newParadigm/static/media/map.0811218cb1c530ac0e0f.PNG",
+    "index.html": "/newParadigm/index.html",
+    "main.38762da8.css.map": "/newParadigm/static/css/main.38762da8.css.map",
+    "main.6222a7c9.js.map": "/newParadigm/static/js/main.6222a7c9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38762da8.css",
+    "static/js/main.6222a7c9.js"
+  ]
+}

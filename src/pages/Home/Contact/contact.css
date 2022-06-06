@@ -1,0 +1,63 @@
+.contact{
+    /* height:50vh; */
+    margin-top:5%;
+    background-color: #7b2fad;
+    height: 100vh;
+}
+.contactBody{
+    height: 30vh;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.contactBody h1{
+    color:white;
+    font-size: 50px;
+}
+.contactBody p{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+.map{
+    height:100px;
+    margin: auto auto ;
+    overflow: hidden;
+    background-color: #ad2f2f;
+}
+
+
+@media (min-width:60em){
+    .contact{
+        height:70vh;
+        margin-top:5%;
+        background-color: #7b2fad;
+    }
+    .contactBody{
+        height: 30vh;
+        text-align: center;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+    .contactBody h1{
+        color:white;
+        font-size: 50px;
+    }
+    .contactBody p{
+        height: 20vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 20px;
+    }
+    .map{
+        overflow: hidden;
+        margin: auto auto ;
+        height: 100%;
+        width: 70vw;
+    }
+}

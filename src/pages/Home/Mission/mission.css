@@ -1,0 +1,144 @@
+/* Vision/Mission Mobile View */
+.mission{
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+    margin: auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    color: rgb(250, 250, 250);
+    
+}
+.Left{
+    display: block;
+    text-align: center;
+    margin: auto;
+    flex: 2;
+}
+.Left button{
+    color:white;
+    background: transparent;
+    margin-top: 30px;
+    padding:10px 30px;
+}
+.visionLeft{
+    display: none;
+}
+
+.missionTitle{
+    width: 100%;
+    font-size: 50px;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.missionBody{
+    /* display: flex; */
+    width:90%;
+    margin: auto;
+}
+.missionRight{
+    flex: 1;
+}
+.blackBack{
+    justify-content: center;
+    margin-top: 30px;
+    /* height:480px;
+    width: 380px; */
+    /* background-color: black; */
+    animation: slideBack 3s;
+}
+.activeVision{
+    height: 100%;
+    animation: slide 3s;
+}
+.missionImg{
+    height: 40vh;
+    width:38vw;
+    border-radius: 20px;
+    object-fit : cover;
+
+}
+
+/* Vission/Mission Desktop View*/
+
+@media (min-width:60em){
+
+    .mission{
+        width: 100%;
+        height:100%;
+        overflow: hidden;
+        margin: auto;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(250, 250, 250);
+        background-attachment: fixed;
+    
+    }
+    .Left{
+        display: block;
+        text-align: center;
+        margin: auto;
+        flex: 2;
+    }
+    .Left button{
+        color:white;
+        background: transparent;
+        margin-top: 30px;
+        padding:10px 30px;
+    }
+    .visionLeft{
+        display: none;
+    }
+    
+    .missionTitle{
+        width: 100%;
+        font-size: 50px;
+        margin-bottom: 5%;
+        text-align: center;
+    }
+    .missionBody{
+        /* display: flex; */
+        width:90%;
+        margin: auto;
+    }
+    .missionRight{
+        flex: 1;
+    }
+    .blackBack{
+        justify-content: center;
+        margin-top: 30px;
+        /* height:480px;
+        width: 380px; */
+        /* background-color: black; */
+        animation: slideBack 3s;
+    }
+    .activeVision{
+        height: 450px;
+        width: 350px;
+        animation: slide 3s;
+        object-fit: cover;
+    }
+    .missionImg{
+        height: 450px;
+        width:350px;
+        border-radius: 30px;
+        object-fit : cover;
+    
+    }
+
+}
+
+
+@keyframes slide {
+    0%{
+    transform: translate(10px, 10px) scale(0.95) ;
+    }
+    
+}
+@keyframes slideBack {
+    0%{
+    transform: translate(10px, 10px) scale(0.95) ;
+    }
+    
+}

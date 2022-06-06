@@ -1,0 +1,105 @@
+.corevalue{    
+    color:#fff;
+    height: 100%;
+    background-color: rgb(94, 14, 114);
+    display: flex;
+    background-position: fixed;
+    justify-content: center;
+}
+.coreTitle{
+    text-align: center;
+    font-size: 45px;
+    font-weight:500;
+    color:rgb(255, 255, 255);
+    margin-top: 55px;
+}
+.coreCards{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.coreOne{
+    margin-top: 35px;
+}
+.coreTwo{
+    margin-top: 35px;
+}
+.coreThree{
+    margin-top: 35px;
+}
+.coreFour{
+    margin-top: 35px;
+}
+/*Cards Animation*/
+
+/* Card Animation for the from the left transition*/
+.coreleftActive{
+    animation: fromRight 3s;
+}
+/* Card Animation for the from the right transition*/
+.corerightActive{
+    animation: fromLeft 3s;
+}
+
+@media(min-width:60em){
+    .corevalue{    
+        color:#fff;
+        height: 100%;
+        background-color: rgb(94, 14, 114);
+        display: flex;
+    }
+    .coreCards{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 10px;
+        margin: 2em 0;
+
+    }
+    .coreOne{
+        margin-top: 35px;
+        margin-left:-20vw;
+    }
+    .coreTwo{
+        margin-top: 35px;
+        margin-right:-20vw;
+    }
+    .coreThree{
+        margin-top: 35px;
+        margin-left:-20vw;
+    }
+    .coreFour{
+        margin-top: 35px;
+        margin-right:-20vw;
+    }
+    .map{
+        width:80%;
+        height: 30vh;
+    }
+
+
+}
+
+@keyframes fromLeft{
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fromRight{
+    0%{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
