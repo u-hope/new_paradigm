@@ -1,5 +1,5 @@
 .contact{
-    /* height:50vh; */
+    height:auto;
     margin-top:5%;
     background-color: #7b2fad;
     height: 100vh;
@@ -23,22 +23,23 @@
     font-size: 20px;
 }
 .map{
-    height:100px;
-    margin: auto auto ;
+    text-align: left;
     overflow: hidden;
-    background-color: #ad2f2f;
+    background-color: #7b2fad;
 }
 
 
 @media (min-width:60em){
     .contact{
-        height:70vh;
+        height:100vh;
         margin-top:5%;
         background-color: #7b2fad;
+        display: grid;
+        grid-template-columns: 1fr 4fr;
     }
     .contactBody{
         height: 30vh;
-        text-align: center;
+        margin: auto auto;
         display: grid;
         grid-template-rows: 1fr 1fr;
     }
@@ -56,8 +57,5 @@
     }
     .map{
         overflow: hidden;
-        margin: auto auto ;
-        height: 100%;
-        width: 70vw;
     }
 }

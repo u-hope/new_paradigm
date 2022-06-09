@@ -13,7 +13,7 @@ class Maps extends Component {
             google={this.props.google} 
             zoom={16} 
             initialCenter={{lat:9.01260364955752, lng:38.83335907301758}}
-            style={{height:"100%", width:"70%", overFlow:"hidden"}}
+            style={{height:"80%", maxWidth:"60%", overFlowX:"hidden", overFlowY:"hidden", margin: "5% 15%"}}
             >
                 <Marker position={{lat:9.01260364955752, lng:38.83335907301758}} />
         </Map>

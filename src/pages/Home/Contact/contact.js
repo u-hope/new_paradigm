@@ -12,9 +12,7 @@ export default function Contact(props) {
             </div>
             <div className="contactRight"></div>
         </div>
-        <div className="map">
-            <Maps/>   
-         </div>
+         <Maps className="map"/> 
     </div>
     )
     
