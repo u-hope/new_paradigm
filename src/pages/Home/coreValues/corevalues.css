@@ -34,13 +34,10 @@
 }
 /*Cards Animation*/
 
-/* Card Animation for the from the left transition*/
-.coreleftActive{
-    animation: fromRight 3s;
-}
-/* Card Animation for the from the right transition*/
-.corerightActive{
-    animation: fromLeft 3s;
+
+/* Card Animation for all transition*/
+.blinkActive{
+    animation: blink 3.5s;
 }
 
 @media(min-width:60em){
@@ -81,25 +78,16 @@
 
 }
 
-@keyframes fromLeft{
+@keyframes blink{
     0%{
         opacity: 0;
-        transform: translateX(-100px);
+        transform: translateZ(0);
     }
     100%{
         opacity: 1;
-        transform: translateX(0);
+        transform: translateZ(100);
     }
 }
 
-@keyframes fromRight{
-    0%{
-        opacity: 0;
-        transform: translateX(100px);
-    }
-    100%{
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
+
 

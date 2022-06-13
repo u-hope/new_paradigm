@@ -8,30 +8,38 @@ import "./corevalues.css";
 export default function coreValues(){
 
     window.addEventListener('scroll',()=>{
-        let content = document.querySelector('.coreOne');
-        let coreRight = document.querySelector('.coreThree');
         let top = document.querySelector('.coreOne');
         let left = document.querySelector('.coreTwo');
         let right = document.querySelector('.coreThree');
         let bottom = document.querySelector('.coreFour');
-        let contentPosition = content.getBoundingClientRect().top;
-        let secondContentP  = coreRight.getBoundingClientRect().bottom;
+        let firsttPosition = top.getBoundingClientRect().top;
+        let secondPosition  = left.getBoundingClientRect().top;        
+        let thirdPosition = right.getBoundingClientRect().top;
+        let fourthPosition  = bottom.getBoundingClientRect().top;
         let screenPosition = window.innerHeight;
 
-        if(contentPosition < screenPosition){
-            top.classList.add('corerightActive');
-            left.classList.add('coreleftActive');
+        if(firsttPosition < screenPosition){
+            top.classList.add('blinkActive');
         }else{
-            top.classList.remove('corerightActive');
-            left.classList.remove('coreleftActive');
+            top.classList.remove('blinkActive');
         }
 
-        if(secondContentP < screenPosition) {
-            right.classList.add('corerightActive');
-            bottom.classList.add('coreleftActive');
+        if(secondPosition < screenPosition){
+            left.classList.add('blinkActive');
         }else{
-            top.classList.remove('corerightActive');
-            bottom.classList.remove('coreleftActive');
+            left.classList.remove('blinkActive');
+        }
+
+        if(thirdPosition < screenPosition){
+            right.classList.add('blinkActive');
+        }else{
+            right.classList.remove('blinkActive');
+        }
+
+        if(fourthPosition < screenPosition) {
+            bottom.classList.add('blinkActive');
+        }else{
+            bottom.classList.remove('blinkActive');
         }
     })
 
