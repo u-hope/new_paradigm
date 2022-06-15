@@ -1,0 +1,26 @@
+.announcmentBody{
+display: grid;
+width:auto;
+overflow: hidden;
+grid-template-columns: 1fr 2fr;
+}
+.announcementSidebar{
+    width: 20vw;
+    overflow: hidden;
+    background-color: antiquewhite;
+    position: sticky;
+}
+.announcementSidebar p{
+    font-size:40px;
+    font-weight:800px;
+    padding:30px 20px;
+}
+.announcmentLeftbar{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+

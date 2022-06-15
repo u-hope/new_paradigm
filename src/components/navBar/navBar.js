@@ -36,7 +36,7 @@ export default function NavBar(props){
                     <li><a href="/">Home</a></li>
                     <li><a href="#">Value</a></li>
                     <li><a href="/Blog">Blog</a></li>
-                    <li><a href="#">Anouncement</a></li>
+                    <li><a href="/Announcement">Anouncement</a></li>
                     {user ? <li><a href="/Write">Write</a></li> : <li></li>} 
                     <li><a href="" onClick={handleLogout}>{user && "Logout"}</a></li>
                 </ul>
